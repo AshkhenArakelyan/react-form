@@ -1,0 +1,42 @@
+div.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 30px 50px;
+    margin: 0 auto;
+    width: 40%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px #000000;
+    background-color: #00000070;
+}
+div.form div.user-icon {
+    position: absolute;
+    top: -13%;
+    left: 45%;
+    background-color: #91aeb1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.form div.user-icon img {
+    height: 55%;
+    width: 55%;
+    object-fit: cover;
+}
+p.error-message {
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    div.form { 
+        padding: 80px 30px 50px;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
