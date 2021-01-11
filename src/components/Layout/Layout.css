@@ -1,0 +1,11 @@
+main {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/page-background.jpg');
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

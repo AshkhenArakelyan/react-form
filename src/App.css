@@ -1,11 +1,8 @@
 .App {
   text-align: center;
-  padding-top: 200px;
-  background-image: url('./assets/page-background.jpg');
-  height: calc( 100vh - 200px);
-  background-position: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+h1 {
+  margin: 0;
 }
 
 
